@@ -1,0 +1,21 @@
+body{
+  background-image: url('http://chromecastbg.alexmeub.com/images/1080_D3-0763.jpg');
+}
+
+.well{
+  margin-left:20%;
+  margin-right: 20%;
+  margin-top: none;
+  background: rgba(90, 90, 90,0.8);
+  color: white;
+}
+.jumbotron{
+  margin-left:20%;
+  margin-right:20%;
+  margin-top: 2%;
+  background: rgba(90, 90, 90,0.8);
+}
+h2{
+  font-family: sans-serif;
+  color: white;
+}

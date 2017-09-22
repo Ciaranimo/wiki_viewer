@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Wikipedia Viewer</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://bootswatch.com/simplex/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+
+      <a class="navbar-brand" href="#">Wiki Viewer</a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+
+      </ul>
+    </div><!--end nav-collapse -->
+  </div>
+</nav>
+
+    <div class="container">
+        <div class="row">
+          <div class="jumbotron">
+          <h2>Wikipedia Viewer</h2>
+          <div id="custom-search-input">
+
+            <div class="input-group col-xs-12">
+              <input type="text" id = "searchTerm" class="search-query form-control" placeholder="Search" />
+              <span class="input-group-btn">
+                <button class="btn btn-danger" id="search" type="button">
+                  <span class=" glyphicon glyphicon-search"></span>
+                </button>
+             <button class="btn btn-default" type="button">
+                  <a href="https://en.wikipedia.org/wiki/Special:Random">Random</a>
+              </button>
+
+              </span>
+            </div>
+          </div>
+          </div>
+        </div>
+      <div class="row">
+        <div class="well">
+          <ul id="output">
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.js"
+      integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+      crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+  </body>
